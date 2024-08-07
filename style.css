@@ -1,0 +1,112 @@
+ /*  by this we removed by defualt spaces form the page */
+*{
+    margin: 0px;
+    padding: 0px;          
+}
+
+                               
+
+    /* styling body */
+
+ body{
+
+    background-color: #fca311;
+    text-align: center;
+ }                               
+
+.container1{
+
+    margin-top: 15px;
+    height: 70vh;   /* vh means that this container has 70 percent height on the screen */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+         
+   
+}
+
+
+.container2{
+
+    height: 60vmin; /* vmin means that this container has a 60 percent height inside the container1*/
+    width: 60vmin;  /* vmin means that this container has a 60 percent width inside the container1*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+   
+
+}
+
+.button{
+
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;   /* Use the cover the each button*/
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    background-color: black;
+    color: white;
+   
+}
+
+#reset-btn{
+   
+  
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    font-size:1rem ;
+    border-radius: 1rem;
+    
+
+}
+
+
+#new-game-btn{
+    
+   margin-top: 20px;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    font-size:1.5rem ;
+    border-radius: 1rem;
+
+}
+
+
+#wining-msg{
+
+
+ margin-top: 50px;
+font-weight: bold;
+font-size: 2rem;
+
+
+}
+
+.msg-container{
+
+    
+margin-top: 30vmin;
+height: 80vmin;
+border: none;
+font-size: 50px;
+gap:2rem;
+
+    
+}
+
+ .hide{
+
+    display: none;
+} 
+
+.h1{
+
+    margin-top: 30px;
+   text-decoration: underline;
+  
+}
